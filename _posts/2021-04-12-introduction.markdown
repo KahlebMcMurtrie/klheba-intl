@@ -1,5 +1,5 @@
 ---
-layout: couridor_post
+layout: post
 title:  "Introduction"
 date:   2021-04-12 10:32:19 -0700
 ---
