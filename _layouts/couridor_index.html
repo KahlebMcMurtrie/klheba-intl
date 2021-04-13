@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.title }}</title>
+
+    <link rel="stylesheet" href="assets/dist/couridor.css">
+</head>
+<body>
+    <header><b>{{ site.title }}</b></header>
+    <section>
+    <ul>
+        {% for post in site.posts %}
+          <li>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+            <span><b>{{ post.date }}</b></span>
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
+    <article>
+        <b>The State Shall Not Infringe on My Art</b>
+        <hr>
+        {{ content }}
+    </article>
+</body>
+</html>
