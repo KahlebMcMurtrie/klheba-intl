@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: couridor_post
 title:  "Welcome to Jekyll!"
 date:   2021-04-13 13:43:46 -0700
 categories: jekyll update
